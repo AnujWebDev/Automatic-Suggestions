@@ -1,0 +1,27 @@
+#suggestion_list{
+    cursor: pointer;
+}
+#suggestion_list:hover{
+    background-color: lightblue;
+}
+.popup {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    background: #fff;
+    width: auto;
+    max-width: 400px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    background-color: lightblue;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+  }
